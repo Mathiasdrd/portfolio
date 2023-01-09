@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mathiasdrd.github.io/static/css/main.df1dbd8a.css",
+    "main.js": "/Mathiasdrd.github.io/static/js/main.96633a49.js",
+    "index.html": "/Mathiasdrd.github.io/index.html",
+    "main.df1dbd8a.css.map": "/Mathiasdrd.github.io/static/css/main.df1dbd8a.css.map",
+    "main.96633a49.js.map": "/Mathiasdrd.github.io/static/js/main.96633a49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df1dbd8a.css",
+    "static/js/main.96633a49.js"
+  ]
+}
