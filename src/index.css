@@ -151,3 +151,8 @@ a.active {
 .socials > * {
     margin-right: 0.5em;
 }
+
+.homepage-intro {
+    font-size: 20px;
+    margin: auto;
+}
