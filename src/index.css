@@ -18,6 +18,9 @@ h1 {
     justify-content: center;
     color: var(--detail-color);
 }
+h3 {
+    display: flex;
+}
 
 p {
     color: var(--main-light-color);
@@ -53,25 +56,20 @@ a:hover {
 
 a.active {
     text-decoration: underline 3px;
-
 }
 
 .projects-content {
-    display: grid;
-    grid-template-rows: 25% 1fr;
-    grid-template-areas: 
-    "t" 
-    "p";
+    display: flex;
+    flex-direction: column;
 }
 
 .projects-text {
-    grid-area: t;
     font-size: 28px;
     margin: auto;
 }
 
 .projects {
-    grid-area: p;
+
     display: flex;
     flex-wrap: wrap;
     padding: 1.25em;
@@ -80,6 +78,7 @@ a.active {
 
 
 .project-card {
+    display: flex;
     background-color: var(--main-light-color);
     border-radius: 2%;
     padding: 1em;
@@ -108,10 +107,8 @@ a.active {
 .footer-div {
     padding: 0.5em 1em;
     background-color: var(--optional-color);
-    min-height: 150px;
     color: var(--detail-color);
     font-size: 28px;
-    border-radius: 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -159,6 +156,7 @@ a.active {
     margin: auto;
 }
 .footer-sidenote {
+    padding: 1.5em 0;
     width: 20%;
     font-size: 14px;
 }
