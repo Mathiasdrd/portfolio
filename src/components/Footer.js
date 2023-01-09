@@ -12,9 +12,14 @@ export default function Footer() {
 
     return(
         <div className="footer-div">
-            <h3 className="footer-header">Socials</h3>
-            <div className="socials">
-                {socials}
+            <div >
+                <h3>Socials</h3>
+                <div  className="socials">
+                    {socials}
+                </div>
+            </div>
+            <div className="footer-sidenote">
+                <p>*The projects lead to their respective github repository. This portfolio is made for recruiters and companies who know how to work with github. The projects are not deployed on the web yet.</p>
             </div>
         </div>
     )
