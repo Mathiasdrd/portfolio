@@ -101,8 +101,8 @@ a.active {
 .about-me-p {
     font-size: 25px;
     display: flex;
-    justify-content: right;
-    padding-left: 50%;
+    margin: auto;
+    width: 50%;
 }
 
 .footer-div {
