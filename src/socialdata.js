@@ -9,5 +9,5 @@ export default [
         id: 2,
         link: "https://www.linkedin.com/in/mathias-deridder-3987bb153/",
         logo: "linkedin-logo-png-2048.png",
-    }
+    }, 
 ]

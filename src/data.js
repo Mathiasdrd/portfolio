@@ -17,5 +17,14 @@ export default [
         creationDate: "11/2022",
         description: "with the course Learn React for free from Scrimba.com I created a small project where I learned the basics of React, specifically the use of components and props.",
         toolsUsed: "React, CSS",
+    },
+    {
+        id: 3,
+        title: "My first graphs made with D3js",
+        link: "https://github.com/Mathiasdrd/d3js-graphs",
+        preview: "d3js-first-graphs.png",
+        creationDate: "01/2023",
+        description: "My first graphs made with dummy data and and introduction to D3js and SVG",
+        toolsUsed: "D3js, JS",
     }
 ]
